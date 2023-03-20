@@ -1,0 +1,138 @@
+.publicar{
+	height: 230px;
+	width: 700px;
+	margin-top: 100px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+#espaco{
+	height: 230px;
+	width: 700px;
+}
+
+@media (max-width: 920px) {
+	.publicar {
+			width: 100%;
+	}
+}
+
+main .publicar .botaopubli button{
+	border-radius: 8px;
+	border-style: solid;
+	border-width: 1px;
+	color: #000080;
+	height: 25px;
+}
+main .publicar .botaopubli button:hover{
+	color: white;
+	background-color: #000080;
+
+}
+main .publicar .areatexto .tema{
+	height: 30px;
+	width: 95%;
+}
+.botaopubli{
+	margin-left: 10px;
+}
+.areatexto{
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+textarea{
+	border-radius: 10px;
+	height: 80px;
+	width: 650px;
+}
+@media (max-width: 920px) {
+	textarea {
+		width: 100%;
+	}
+}
+
+label{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.postagem{
+	margin-top: 50px;
+	height: 320px;
+	width: 700px;
+	padding-top: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+
+}
+
+@media (max-width: 920px) {
+	.postagem {
+		width: 100%;
+	}
+}
+
+.alinhamento{
+	margin-top: 310px;
+	margin-left: 0px;
+}
+
+.usuario{
+	height: 50px;
+	width: 50%;
+	align-content: left;
+}
+.fotoperfil{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 10px;
+}
+.tema1{
+	margin-left: 10px;
+}
+img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.nome{
+	margin-top: -55px;
+	margin-left: 80px;
+}
+.assunto{
+	height: 50px;
+	width: 120%;
+	align-content: left;
+	margin-left: 20px;
+	text-align: left;
+}
+.texto{
+	height: 200px;
+	width: 190%;
+	margin-top: -40px;
+	margin-left: 20px;
+}
+.curtir{
+	margin-top: -20px;
+	margin-left: 10px;
+}
+main .postagem .curtir button{
+	border-radius: 8px;
+	border-style: solid;
+	border-width: 1px;
+}
+main .postagem .curtir button:hover{
+	color: red;
+	border-color: red;
+}
+footer{
+	height: 100px;
+	width: 100%;
+	margin-top: 700px;
+}
